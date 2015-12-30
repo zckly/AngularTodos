@@ -8,11 +8,11 @@ angular.module('TodoApp', [
 .config(function($routeProvider) {
   $routeProvider
     .when('/', {
-      templateUrl: './todolist/todolist.html',
+      templateUrl: 'app/todolist/todolist.html',
       controller: 'TodoListController'
     })
     .when('/new', {
-      templateUrl: './todoform/todoform.html',
+      templateUrl: 'app/todoform/todoform.html',
       controller: 'TodoFormController'
     })
 })
