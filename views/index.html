@@ -1,12 +1,12 @@
 <!doctype html>
 <html ng-app="TodoApp">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Angular Todos by Zachary Lee</title>
+  <title>Angular Todos by Zachary Lee</title>
 
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
 </head>
 
 <body>
@@ -17,9 +17,12 @@
   <script src="./app/services/services.js"></script>
   <script src="./app/todolist/todolist.js"></script>
   <script src="./app/todoform/todoform.js"></script>
-  <h1>MKS29 Todos</h1>
-  <a href='/#/'>Todos</a>
-  <a href='/#/new'>New</a>
-  <div ng-view></div>
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h1>MKS29 Todos</h1>
+      <div ng-view></div>
+    </div>
+  </div>
 </body>
+</html>
 </html>
