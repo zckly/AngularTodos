@@ -4,7 +4,7 @@ angular.module('TodoApp.TodoForm', [])
   $scope.text = ''
   $scope.addTodo = function(text) {
     console.log('text', text)
-    Todos.addTodo($scope.text)
+    Todos.addTodo(text)
     .then(function(resp) {
       $scope.text = '' //clear form
     })
