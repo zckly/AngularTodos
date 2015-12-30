@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname)));
 
 //our lonely route for our single page app
 app.get('/', function(req, res) {
-  res.sendFile('./views/index.html')
+  res.sendFile(__dirname + '/views/index.html');
 });
 app.get('/api/todos', function(req, res) {
   // use mongoose to get all todos in the database
