@@ -1,6 +1,8 @@
 # AngularTodos
 A lecture given to the students of MakerSquare Cohort 29.
 
+The master branch has the boilerplate code so you can fill everything out yourself. The solution branch has the completed solution.
+
 To run on your computer, you need:
 
 1. MongoDB
