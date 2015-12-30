@@ -28,6 +28,7 @@ app.use(express.static(path.join(__dirname)));
 app.get('/', function(req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
+
 app.get('/api/todos', function(req, res) {
   // use mongoose to get all todos in the database
   Todo.find(function(err, todos) {
